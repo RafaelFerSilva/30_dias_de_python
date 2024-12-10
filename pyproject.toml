@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "30-dias-de-python"
+version = "0.1.0"
+description = ""
+authors = ["RafaelFerSilva <todosomtodavoz@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.3.4"
+pytest-cov = "^6.0.0"
+
+
+[tool.poetry.group.dia_03.dependencies]
+httpx = "^0.28.1"
+respx = "^0.21.1"
+
+
+[tool.poetry.group.dia_04.dependencies]
+humanize = "^4.11.0"
+
+
+[tool.poetry.group.dia_05.dependencies]
+time-machine = "^2.16.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
